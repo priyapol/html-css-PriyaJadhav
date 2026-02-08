@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 02:30:58
+ * @Last Modified time: 2026-02-08 19:40:52
  */
 
 
@@ -41,6 +41,7 @@ body {
 .product-image img {
   width: 100%;
   height: auto;
+  gap: 20px;
   border-radius: 5px;
 }
 
@@ -49,13 +50,15 @@ body {
   gap: 10px;
   max-width: 600px;
   margin-top: 90px;
+
 }
 
-.price {
+.product-info p {
   margin-bottom: 25px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: black;
-  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
 }
 
 .specs {
@@ -232,11 +235,13 @@ input[type="number"] {
   margin-top: 40px;
   padding: 0 40px;
   background-color: #97bec9;
+  height: 700px;
 }
 
 .similar-products h2 {
   margin-bottom: 20px;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .similar-grid {
@@ -275,6 +280,7 @@ input[type="number"] {
 .mini-card .price {
   font-weight: bold;
   color: Black;
+  text-align: center;
 }
 
 hr {
@@ -315,6 +321,10 @@ html {
     width: 100%;
     margin-top: 20px;
     text-align: center; /* Optional: centers text for mobile feel */
+  }
+
+   .product-info p {
+      text-align: center; /* Optional: centers text for mobile feel */
   }
 
   /* 2. Adjust Inputs and Options */
