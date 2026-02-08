@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 22:00:43
+ * @Last Modified time: 2026-02-08 22:35:10
  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #bbd7df;
+  background-color: #8eccdf;
   display: flex;
   /* Enable Flexbox layout */
   flex-direction: column;

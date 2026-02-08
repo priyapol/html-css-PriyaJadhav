@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 01:59:39
+ * @Last Modified time: 2026-02-08 22:40:59
  */
 
 * {
@@ -16,7 +16,7 @@
 html,
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #bbd7df;
+  background-color: #8eccdf;
   overflow-x: hidden;
   /* Prevents the horizontal scroll/blank space */
   width: 100%;
@@ -30,16 +30,17 @@ body {
   /* Space between cards */
   padding: 40px 20px;
   width: 100%;
-  align-items: center
+  align-items: center;
+  margin-top: 50px;
 }
 
 .product-card {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 90%;
 
   margin: 0 auto;
   /* Set a fixed width for each card */

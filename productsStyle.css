@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 22:14:32
+ * @Last Modified time: 2026-02-08 22:40:40
  */
 
 
@@ -27,7 +27,7 @@ body {
   width: 100%;
   align-items: center;
   height: auto;
-
+  margin-top: 60px;
 }
 
 .product-card {
@@ -36,14 +36,13 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   /* Set a fixed width for each card */
   overflow: hidden;
   /* Ensures image corners are also rounded */
   text-align: center;
   transition: box-shadow 0.3s;
-  margin-top: 40px;
 }
 
 .product-card:hover {

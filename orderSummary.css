@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 01:17:57
+ * @Last Modified time: 2026-02-08 22:36:16
  */
 
 * {
@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #e0f2f7;
+  background-color: #8eccdf;
   /* Light blue background as in image */
   margin: 0;
   padding: 0px;
@@ -29,7 +29,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 /* --- General Styling for Sections --- */
@@ -45,7 +45,7 @@ body {
 
 .shopping-cart {
 
-  background-color: #c6e3eb;
+  background-color: #e0f2f7;
   color: #333;
   flex: 2;
   /* Takes up more space than the summary */

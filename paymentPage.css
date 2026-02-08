@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-04 20:31:13
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 01:16:54
+ * @Last Modified time: 2026-02-08 22:37:02
  */
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 
 body {
     margin: 0;
-    background: #dff0f6;
+    background-color: #8eccdf;
     display: flex;
     flex-direction: column;
 }
@@ -30,7 +30,7 @@ body {
     justify-content: center;
     gap: 60px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .step {
