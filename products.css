@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 02:19:08
+ * @Last Modified time: 2026-02-08 18:40:16
  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
@@ -116,7 +116,7 @@ input+label .action span {
   width: 100%;
   align-items: center;
   background-color: #bbd7df;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .product-card {

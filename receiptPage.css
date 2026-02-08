@@ -2,7 +2,7 @@
  * @Author: Priya Jadhav
  * @Date:   2026-02-01 21:06:57
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 01:32:10
+ * @Last Modified time: 2026-02-08 18:28:42
  */
 
 * {
@@ -154,16 +154,19 @@ hr.styled-line {
 }
 
 .summary-details .total {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-bottom: 5px;
+  margin-left: 5px;
+
 }
 
 .summary-details .taxes {
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #777;
   margin-top: -10px;
   font-weight: bold;
+  margin-left: 5px;
 }
 
 /* CONTINUE BUTTON */
@@ -223,33 +226,8 @@ hr.styled-line {
   transform: translateY(0);
 }
 
-/* FOOTER */
 
-.footer {
-  background: #cfe7ef;
-  padding: 20px 40px;
-  display: flex;
-  gap: 50px;
-}
 
-.footer a {
-  text-decoration: none;
-  color: black;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 1024px) {
-    /* Adjusting main container for tablets */
-    .main {
-        grid-template-columns: 1fr; /* Stack form and summary */
-        gap: 30px;
-    }
-    
-    .summary {
-        width: 100%; /* Remove 500px fixed width */
-    }
-}
 
 @media(max-width:768px) {
 
@@ -261,6 +239,16 @@ hr.styled-line {
   .steps {
     gap: 30px;
   }
+
+      /* 1. PROGRESS STEPS: Remove connecting lines and stack or wrap */
+    .steps {
+        flex-wrap: wrap; /* Wrap if too many steps */
+        gap: 20px;
+    }
+
+    .step::after {
+        display: none; /* Hide the connecting lines on mobile */
+    }
 
   .step:not(:last-child)::after {
     width: 40px;

@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 02:04:07
+ * @Last Modified time: 2026-02-08 15:45:20
  */
 
 
@@ -22,8 +22,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  /* Space between cards */
-  /* Space between cards */
   padding: 40px 20px;
   width: 100%;
   align-items: center;
