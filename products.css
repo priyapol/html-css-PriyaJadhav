@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 18:40:16
+ * @Last Modified time: 2026-02-08 22:24:40
  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
@@ -12,12 +12,11 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-
+  background-color: #8eccdf;
 }
 
 
@@ -116,7 +115,7 @@ input+label .action span {
   width: 100%;
   align-items: center;
   background-color: #bbd7df;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .product-card {
@@ -178,6 +177,7 @@ input+label .action span {
   /* Accent color for the price */
   margin: 0;
   margin-left: -60px;
+  text-decoration: none;
 }
 
 .actions {

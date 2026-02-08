@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 15:45:20
+ * @Last Modified time: 2026-02-08 22:14:32
  */
 
 
@@ -16,12 +16,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #8eccdf;
 }
 
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 5px;
   padding: 40px 20px;
   width: 100%;
   align-items: center;
@@ -35,14 +36,14 @@ body {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   /* Set a fixed width for each card */
   overflow: hidden;
   /* Ensures image corners are also rounded */
   text-align: center;
   transition: box-shadow 0.3s;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .product-card:hover {

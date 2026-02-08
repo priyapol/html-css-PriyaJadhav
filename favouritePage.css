@@ -2,7 +2,7 @@
  * @Author: Your name
  * @Date:   2026-02-03 16:02:11
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 02:24:24
+ * @Last Modified time: 2026-02-08 22:00:43
  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
@@ -114,7 +114,7 @@ input+label .action span {
   gap: 10px;
   /* Space between cards */
    /* Space between cards */
-  padding: 40px 20px;
+  padding: 100px 20px;
   width: 100%;
   align-items: center;
   background-color: #bbd7df;
@@ -136,7 +136,7 @@ input+label .action span {
   text-align: center;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
-  margin-top: 60px;
+
 }
 
 .product-card:hover {
@@ -250,16 +250,15 @@ html {
 }
 
 /* Responsive: Change to 2 columns on tablets and 1 on mobile */
-@media (max-width: 1024px) {
-    /* Adjusting main container for tablets */
-    .main {
-        grid-template-columns: 1fr; /* Stack form and summary */
-        gap: 30px;
-    }
-    
-    .summary {
-        width: 100%; /* Remove 500px fixed width */
-    }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+  }
+
+  .product-title {
+    font-size: 1.15rem;
+  }
 }
 
 /* Mobile Phones */
@@ -281,5 +280,20 @@ html {
   .product-card {
     width: 100%; /* Ensure card doesn't exceed grid width */
     margin: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+  }
+
+  .product-title {
+    font-size: 1.1rem;
+  }
+
+  .product-card {
+    width: 100%;
   }
 }
