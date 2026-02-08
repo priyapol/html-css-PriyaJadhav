@@ -1,0 +1,239 @@
+/**
+ * @Author: Your name
+ * @Date:   2026-02-04 20:31:13
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2026-02-08 01:16:54
+ */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #dff0f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    flex: 1 0 auto;
+}
+
+/* STEPS */
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.step {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+}
+
+.step span {
+    display: block;
+    margin-top: 10px;
+}
+
+.step::before {
+    content: "";
+    width: 55px;
+    height: 55px;
+    background: #cfe6ef;
+    display: block;
+    margin: auto;
+}
+
+.step.done::before {
+    content: "✔";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #48a9a6;
+    color: white;
+}
+
+.step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 26px;
+    /* vertical center of box */
+    right: -67px;
+    /* pushes line to next box */
+    width: 70px;
+    /* length of the line */
+    height: 2px;
+    background: #333;
+}
+
+.step.active {
+    font-weight: 800;
+}
+
+/* MAIN */
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+}
+
+/* FORM */
+
+.form-area h3 {
+    margin: 30px 0 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.row input {
+    height: 36px;
+    border: none;
+    padding: 0 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #222;
+    margin: 30px 0;
+}
+
+/* PAYMENT */
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+
+}
+
+.cards img {
+    width: 40px;
+    height: auto;
+}
+
+/* SMALL ROW */
+
+.row.small {
+    grid-template-columns: 1fr 2.5fr;
+    gap: 10px;
+}
+
+.row.small div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row.small input {
+    margin-top: 10px;
+    width: 200px;
+}
+
+/* SUMMARY */
+
+.summary {
+    background: #d5e9f1;
+    padding: 40px;
+    width: 500px;
+}
+
+.summary h2 {
+    margin-bottom: 30px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.total small {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* BUTTON */
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: #219150;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+}
+
+.submit-btn:hover {
+    background: #219150;;
+}
+
+@media (max-width: 1024px) {
+    /* Adjusting main container for tablets */
+    .main {
+        grid-template-columns: 1fr; /* Stack form and summary */
+        gap: 30px;
+    }
+    
+    .summary {
+        width: 100%; /* Remove 500px fixed width */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    /* 1. PROGRESS STEPS: Remove connecting lines and stack or wrap */
+    .steps {
+        flex-wrap: wrap; /* Wrap if too many steps */
+        gap: 20px;
+    }
+
+    .step::after {
+        display: none; /* Hide the connecting lines on mobile */
+    }
+
+    /* 2. FORM ROWS: Change from 160px/1fr to a vertical stack */
+    .row {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .row input {
+        width: 100% !important; /* Force full width inputs */
+    }
+
+    /* 3. SMALL ROWS: Fix the Expiry/CVV columns */
+    .row.small {
+        grid-template-columns: 1fr 1fr; /* Side by side on mobile is okay */
+        gap: 15px;
+    }
+
+  
+}

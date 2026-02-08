@@ -1,0 +1,152 @@
+<!-- 
+  @Author: Your name
+  @Date:   2026-02-03 15:59:59
+  @Last Modified by:   Your name
+  @Last Modified time: 2026-02-07 23:52:16
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ecommerce Website for Jackets useful in Rainy , windy weather">
+  <link href="https://fonts.googleapis.com" rel="stylesheet">
+  <title>Products Style Page</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="productsStyle.css">
+  <script src="https://kit.fontawesome.com/10d6e0923a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <img src="images/RainyDays_logo.png" alt="logo" class="logo-img">
+        <div class="desktop-links">
+          <a href="products.html">Shop</a>
+          <!-- DROPDOWN -->
+          <div class="dropdown">
+            <a href="#" class="drop-btn">View Collections</a>
+
+            <div class="dropdown-menu">
+              <a href="productsCategory.html">By Category</a>
+              <a href="productsStyle.html">By Style</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-center">
+        <div class="desktop-links">
+          <div class="search">
+            <input type="text" placeholder="Search">
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-right"></div>
+      <ul class="menu-icons">
+        <li><a href="index.html" aria-label="Index Page"><i class="fa-solid fa-house" alt="Home"></i></a></li>
+        <li><a href="loginPage.html" aria-label="Login Page"><i class="fa-solid fa-user-plus" alt="Login"></i></a>
+        </li>
+        <li><a href="favouritePage.html" aria-label="Favourite Page"><i class="fa-solid fa-heart" alt="Heart"></i></a>
+        </li>
+        <li><a href="orderSummary.html" aria-label="View Cart Page"><i class="fa-solid fa-cart-shopping"
+              alt="Cart"></i></a></li>
+        <li>
+          <label for="menu-toggle" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </li>
+      </ul>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <div class="mobile-overlay">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        <ul class="mobile-links">
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="productsCategory.html">By Category</a></li>
+          <li><a href="productsStyle.html">By Style</a></li>
+          <li>
+            <hr>
+          </li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+      </ul>
+    </nav>
+  </header>
+  <!-------Product Page-------------->
+  <main>
+    <section id="products">
+      <div class="product-grid">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <a href="products.html"><img src="images/TrenchCoats.jpg" alt="Category2"></a>
+          <div class="product-info">
+            <h3 class="product-title">Trench Coats/Raincoats</h3>
+            <p class="product-description">A stylish and casual attire dry</p>
+          </div>
+        </div>
+
+        <!-- Product Card 2 (Add more cards as needed) -->
+        <div class="product-card">
+          <a href="products.html"><img src="images/HardShelljacket.jpg" alt="Category1"></a>
+          <div class="product-info">
+            <h3 class="product-title">Hard Shells (2, 2.5, & 3-Layer)</h3>
+            <p class="product-description">A warm and waterproof/breathablef jacket</p>
+          </div>
+        </div>
+
+        <!-- Product Card 3 (Add more cards as needed) -->
+        <div class="product-card">
+          <a href="products.html"><img src="images/Rubberized.jpg" alt="Category3"></a>
+          <div class="product-info">
+            <h3 class="product-title">Rubberized/PVC Jackets</h3>
+            <p class="product-description">Heavy-duty waterproof jackets </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!------Footer-------------->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#returns">Returns & Exchanges</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Connect With Us</h4>
+        <div class="social-icons">
+          <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Become a member now</h4>
+        <ul>
+          <li><a href="#member">Become a member and receive amazing offers!</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Your Brand. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

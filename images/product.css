@@ -1,0 +1,864 @@
+/**
+ * @Author: Your name
+ * @Date:   2026-02-02 20:10:59
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2026-02-02 20:11:03
+ */
+.product-page-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.product-page-thq-product-page-elm {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(214, 236, 245, 1);
+}
+ 
+.product-page-thq-text-elm10 {
+  top: 507px;
+  left: 134px;
+  color: rgba(0, 0, 0, 1);
+  width: 305px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm11 {
+  top: 539px;
+  left: 81px;
+  color: rgba(19, 25, 25, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm12 {
+  top: 506px;
+  left: 582px;
+  color: rgba(0, 0, 0, 1);
+  width: 286px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm13 {
+  top: 541px;
+  left: 520px;
+  color: rgba(0, 0, 0, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm14 {
+  top: 506px;
+  left: 1018px;
+  color: rgba(0, 0, 0, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm15 {
+  top: 543px;
+  left: 989px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-frame2-elm1 {
+  top: 136px;
+  left: 129px;
+  width: 310px;
+  height: 364px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 53, 71, 0.10000000149011612);
+}
+ 
+.product-page-thq-rainy-days-jacket6-elm {
+  top: 23px;
+  left: 22px;
+  width: 265px;
+  height: 318px;
+  position: absolute;
+}
+ 
+.product-page-thq-frame3-elm1 {
+  top: 137px;
+  left: 570px;
+  width: 310px;
+  height: 364px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 53, 71, 0.10000000149011612);
+}
+ 
+.product-page-thq-frame4-elm1 {
+  top: 130px;
+  left: 1018px;
+  width: 300px;
+  height: 364px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 53, 71, 0.10000000149011612);
+}
+ 
+.product-page-thq-rainy-days-jacket4-elm {
+  top: 171px;
+  left: 601px;
+  width: 243px;
+  height: 305px;
+  position: absolute;
+}
+ 
+.product-page-thq-rainy-days-jacket1-elm {
+  top: 171px;
+  left: 1052px;
+  width: 241px;
+  height: 294px;
+  position: absolute;
+}
+ 
+.product-page-thq-group1-elm {
+  top: 532px;
+  left: 217px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-frame10-elm1 {
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 83, 83, 0.9900000095367432);
+}
+ 
+.product-page-thq-text-elm16 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-stylishbag55752222-elm1 {
+  top: 0px;
+  left: 154px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+ 
+.product-page-thq-group2-elm {
+  top: 536px;
+  left: 649px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-frame10-elm2 {
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 83, 83, 0.9900000095367432);
+}
+ 
+.product-page-thq-text-elm17 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-stylishbag55752222-elm2 {
+  top: 0px;
+  left: 154px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+ 
+.product-page-thq-group3-elm {
+  top: 533px;
+  left: 1099px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-frame10-elm3 {
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 83, 83, 0.9900000095367432);
+}
+ 
+.product-page-thq-text-elm18 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-stylishbag55752222-elm3 {
+  top: 0px;
+  left: 154px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+ 
+.product-page-thq-nav-bar-variant2-elm {
+  gap: 46px;
+  top: 0px;
+  left: -1px;
+  width: 1440px;
+  height: 97px;
+  display: flex;
+  padding: 20px 154px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: rgba(167, 216, 234, 1);
+}
+ 
+.product-page-thq-frame1-elm {
+  gap: 60px;
+  top: 15px;
+  left: 1139px;
+  width: 252px;
+  display: flex;
+  padding: 7px 3px;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+}
+ 
+.product-page-thq-user91315211-elm {
+  width: 41px;
+  height: 41px;
+}
+ 
+.product-page-thq-cardheart133103711-elm {
+  width: 43px;
+  height: 43px;
+}
+ 
+.product-page-thq-ecommercestore180543581-elm {
+  width: 42px;
+  height: 42px;
+}
+ 
+.product-page-thq-group25-elm {
+  top: 23px;
+  left: 429px;
+  width: 291px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-text-elm19 {
+  top: 2px;
+  left: 123px;
+  color: rgba(21, 80, 84, 1);
+  width: 168px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm20 {
+  color: rgba(245, 245, 245, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-group26-elm {
+  top: 23px;
+  left: 429px;
+  width: 291px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-text-elm21 {
+  top: 2px;
+  left: 123px;
+  color: rgba(21, 80, 84, 1);
+  width: 168px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm22 {
+  color: rgba(245, 245, 245, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Extra Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-rainy-days-logo1-elm {
+  top: 9px;
+  left: 248px;
+  width: 129px;
+  height: 70px;
+  position: absolute;
+}
+ 
+.product-page-thq-image-pngtreewebsearchbar87886371-elm {
+  top: -41px;
+  left: 764px;
+  width: 302px;
+  height: 170px;
+  position: absolute;
+}
+ 
+.product-page-thq-line6-elm {
+  top: 62.5px;
+  left: 468px;
+  width: 66px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.product-page-thq-group7-elm {
+  top: 579px;
+  left: 109px;
+  width: 1220px;
+  height: 444px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-text-elm23 {
+  top: 371px;
+  left: 11px;
+  color: rgba(0, 0, 0, 1);
+  width: 319px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm24 {
+  top: 371px;
+  left: 459px;
+  color: rgba(0, 0, 0, 1);
+  width: 313px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm25 {
+  top: 405px;
+  color: rgba(0, 0, 0, 1);
+  width: 95px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-frame7-elm {
+  top: 344px;
+  left: 639px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.product-page-thq-text-elm26 {
+  top: 408px;
+  left: 453px;
+  color: rgba(0, 0, 0, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm27 {
+  top: 376px;
+  left: 922px;
+  color: rgba(0, 0, 0, 1);
+  width: 285px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-text-elm28 {
+  top: 408px;
+  left: 891px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-frame2-elm2 {
+  top: 0px;
+  left: 20px;
+  width: 310px;
+  height: 363px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 53, 71, 0.10000000149011612);
+}
+ 
+.product-page-thq-rainy-days-jacket3-elm {
+  top: 35px;
+  left: 33px;
+  width: 243px;
+  height: 294px;
+  position: absolute;
+}
+ 
+.product-page-thq-group4-elm {
+  top: 401px;
+  left: 101px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-group5-elm1 {
+  top: 0px;
+  left: 0px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-frame10-elm4 {
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 83, 83, 0.9900000095367432);
+}
+ 
+.product-page-thq-text-elm29 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-stylishbag55752222-elm4 {
+  top: 0px;
+  left: 154px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+ 
+.product-page-thq-group6-elm {
+  top: 401px;
+  left: 562px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-frame10-elm5 {
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 83, 83, 0.9900000095367432);
+}
+ 
+.product-page-thq-text-elm30 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-stylishbag55752222-elm5 {
+  top: 0px;
+  left: 154px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+ 
+.product-page-thq-group5-elm2 {
+  top: 401px;
+  left: 1007px;
+  width: 187px;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.product-page-thq-frame10-elm6 {
+  top: 0px;
+  left: 0px;
+  width: 140px;
+  height: 33px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(219, 83, 83, 0.9900000095367432);
+}
+ 
+.product-page-thq-text-elm31 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.product-page-thq-stylishbag55752222-elm6 {
+  top: 0px;
+  left: 154px;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+}
+ 
+.product-page-thq-frame3-elm2 {
+  top: 3px;
+  left: 459px;
+  width: 310px;
+  height: 363px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 53, 71, 0.10000000149011612);
+}
+ 
+.product-page-thq-rainy-days-jacket7-elm {
+  top: 26px;
+  left: 20px;
+  width: 270px;
+  height: 308px;
+  position: absolute;
+}
+ 
+.product-page-thq-frame4-elm2 {
+  top: 3px;
+  left: 910px;
+  width: 310px;
+  height: 363px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 53, 71, 0.10000000149011612);
+}
+ 
+.product-page-thq-rainy-days-jacket2-elm {
+  top: 21px;
+  left: 31px;
+  width: 248px;
+  height: 317px;
+  position: absolute;
+}
+ 
+.product-page-link {
+  display: contents;
+}
+ 
+.product-page-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.product-page-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.product-page-text {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

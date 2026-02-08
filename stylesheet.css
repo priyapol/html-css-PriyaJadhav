@@ -1,0 +1,541 @@
+/**
+ * @Author: Priya Jadhav
+ * @Date:   2026-02-01 21:06:57
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2026-02-08 01:37:01
+ */
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #8eccdf;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #458ca2;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  ;
+}
+
+.search input {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+  text-rendering: auto;
+  color: black;
+}
+
+.nav-left {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: Black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* DROPDOWN CONTAINER */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+
+/* MAIN LINK */
+.drop-btn {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+/* SUB MENU */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #458ca2;
+  padding: 8px 0;
+  border-radius: 6px;
+  min-width: 170px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+/* LINKS INSIDE */
+.dropdown-menu a {
+  padding: 10px 16px;
+  font-size: 16px;
+  color: black;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* SHOW ON HOVER */
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+/* --- Desktop Defaults --- */
+.hamburger,
+.menu-checkbox,
+.mobile-overlay {
+  display: none;
+  /* Hidden by default on desktop */
+}
+
+
+.nav-right,
+.menu-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  font-size: 24px;
+  gap: 15px;
+}
+
+
+/* --- Mobile Styles --- */
+@media (max-width: 740px) {
+  .desktop-links {
+    display: none;
+    /* Hide standard shop/collection links */
+  }
+
+  .hamburger {
+    display: block;
+    /* Show hamburger icon */
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+
+  /* The Slide-out Menu */
+  .mobile-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Start off-screen */
+    width: 250px;
+    height: 100%;
+    background: #458ca2;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: 0.3s ease-in-out;
+    padding: 60px 20px;
+  }
+
+  .mobile-links {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mobile-links li {
+    margin-bottom: 20px;
+  }
+
+  .mobile-links a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  /* Checkbox Hack: When checked, slide the menu in */
+  .menu-checkbox:checked~.mobile-overlay {
+    right: 0;
+  }
+
+  /* Hide home icon on mobile to save space if needed */
+  .hide-mobile {
+    display: none;
+  }
+}
+
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 85px;
+  height: auto;
+  cursor: pointer;
+  margin-right: auto;
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0px;
+  color: black;
+  cursor: pointer;
+  transition: .2s
+}
+
+nav li i:hover,
+.nav-left a:hover,
+.logo-img:hover {
+  transform: scale(1.1);
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.content-items img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.background-section {
+  display: flex;
+  position: relative;
+}
+
+.navLinks {
+  font-size: 24px;
+}
+
+
+.review-section {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #8eccdf;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.review {
+  font-size: 24px;
+  font-weight: bold;
+  color: #05743b;
+  /* Trustpilot Green */
+  display: inline-block;
+}
+
+.review-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0 40px;
+  /* Space for arrows */
+}
+
+.review-cards {
+  display: flex;
+  overflow-x: auto;
+  /* Allows horizontal scrolling */
+  gap: 20px;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+  /* Hide scrollbar for aesthetics */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.review-cards-wrapper::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera*/
+}
+
+.review-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex: 0 0 240px;
+  /* Fixed width for cards */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  /* Consistent height */
+}
+
+.rating-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.stars {
+  color: #00b67a;
+  /* Green stars */
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-top: -5px;
+}
+
+.verified {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.review-card h4 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.review-card p {
+  font-size: 14px;
+  color: #666;
+  flex-grow: 1;
+  /* Pushes info to bottom */
+}
+
+.reviewer-info {
+  font-size: 12px;
+  color: #656464;
+  margin-top: 10px;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+  z-index: 10;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-arrow.left {
+  left: 5px;
+}
+
+.nav-arrow.right {
+  right: 5px;
+}
+
+.footer-summary {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #484747;
+}
+
+/* Basic responsiveness for smaller screens */
+@media (max-width: 768px) {
+
+}
+
+
+.site-footer {
+  background-color: #458ca2;
+  /* Dark background color */
+  color: #fff;
+  /* White text color */
+  padding: 40px 20px 20px;
+  /* Adjust padding for better spacing */
+  font-family: Arial, sans-serif;
+  flex-shrink: 0;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  /* Minimum width for columns before wrapping */
+  margin: -10px;
+}
+
+.footer-column h4 {
+  color: #ffffff;
+  /* Accent color for headings */
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.footer-column ul li a {
+  color: #0a0a0a;
+  /* Lighter color for links */
+  transition: color 0.3s;
+  font-weight: bold;
+  align-items: center;
+}
+
+.footer-column ul li a:hover {
+  color: white;
+}
+
+.social-icons a {
+  color: #0a0a0a;
+  margin-right: 15px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: white;
+  /* Accent color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #555;
+  /* Separator line */
+  font-size: 14px;
+  color: #0a0a0a;
+}
+
+@media (max-width: 1024px) {
+    /* Adjusting main container for tablets */
+    .main {
+        grid-template-columns: 1fr; /* Stack form and summary */
+        gap: 30px;
+    }
+    
+    .summary {
+        width: 100%; /* Remove 500px fixed width */
+    }
+}
+
+
+/* Basic responsiveness */
+@media (max-width: 768px) {
+
+    .review-cards {
+    justify-content: flex-start;
+  }
+
+  .review-container {
+    padding: 0 10px;
+  }
+
+  .nav-arrow {
+    display: none;
+    /* Hide arrows if user should swipe on mobile */
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    border-bottom: 1px solid #444;
+    margin: 0;
+  }
+
+  .footer-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 0;
+  }
+
+  .footer-heading h4 {
+    margin: 0;
+  }
+
+  /* Hide content by default on mobile */
+  .footer-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  /* When checkbox is checked, show content */
+  .footer-toggle:checked~.footer-content {
+    max-height: 200px;
+    /* Adjust based on content height */
+    padding-bottom: 20px;
+  }
+
+  /* Rotate the chevron icon when open */
+  .footer-toggle:checked~.footer-heading i {
+    transform: rotate(180deg);
+  }
+
+
+}
