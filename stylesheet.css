@@ -2,7 +2,7 @@
  * @Author: Priya Jadhav
  * @Date:   2026-02-01 21:06:57
  * @Last Modified by:   Your name
- * @Last Modified time: 2026-02-08 18:35:23
+ * @Last Modified time: 2026-02-08 20:46:04
  */
 
 
@@ -243,7 +243,7 @@ nav li i:hover,
   padding-bottom: 20px;
 }
 
-.featured-header h2,
+.featured-header h1,
 p {
   align-items: center;
   text-align: center;
@@ -263,7 +263,7 @@ p {
 
   50% {
     opacity: 0.4;
-    text-shadow: 0 0 8px rgba(30, 161, 133, 0.7);
+    text-shadow: 0 0 8px rgba(123, 122, 139, 0.7);
   }
 
   100% {
@@ -484,13 +484,23 @@ p {
 .footer-section h2 {
   margin-bottom: 10px;
   font-size: 22px;
+  text-decoration: underline;
+  color: white;
 }
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+
+}
+
 
 .footer-section p,
 .footer-section ul {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-}
+  }
 
 .footer-section ul {
   list-style-type: none;
@@ -504,8 +514,7 @@ p {
 .footer-section ul li a {
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
-}
+ }
 
 .footer-section ul li a:hover {
   text-decoration: underline;
@@ -620,25 +629,8 @@ p {
     display: none;
   }
 
-  .hero-section {
-    max-width: 340px;
-        margin: 0 auto;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        padding: 26px 34px;
-  }
-
-  .hero-content h2 {
-      font-size: 1.1rem;
-        line-height: 1.2;
-        margin-bottom: 18px;
-        white-space: nowrap;
-  }
-
-  .hero-explore-btn {
-    padding: 10px 25px;
-    font-size: 0.95rem;
+  .hero-section { 
+    display: none;
   }
 
 
